@@ -2,8 +2,9 @@
 # Maak een list aan genaamd books met minimaal 5 boeken
 # Gebruik daarna een for-loop om ieder boek 1 voor 1 uit te printen
 
-
-
+boeken ="de camino", "sapiens","de leven van de loser","project hail mary","de jacht op de nachtegaal"
+for boek in boeken:
+    print("boek")
 
 
 # Oefening 2
@@ -12,8 +13,9 @@
 # Print bij iedere game de zin: "Ik speel graag ..."
 # Bijvoorbeeld: "Ik speel graag Minecraft"
 
-
-
+games = "call of duty","fortnite","rocket leage","stumble guys","far cry primal"
+for games in games:
+    print("ik speel graag","games",)
 
 
 # Oefening 3
@@ -22,7 +24,9 @@
 # Gebruik een for-loop om iedere score uit te printen
 # Tel bij iedere score 10 punten op en print daarna de nieuwe score uit
 
-
+scores = (10, 25, 40, 15, 30)
+for scores in scores:
+    print(scores)
 
 
 
@@ -30,7 +34,8 @@
 # Gebruik een for-loop met range() om de getallen 1 tot en met 10 uit te printen
 # Zorg ervoor dat zowel 1 als 10 geprint worden
 
-
+for scores in range(10,11):
+    print(scores)
 
 
 
@@ -42,9 +47,8 @@
 # 3 x 5 = 15
 # Ga door tot en met 10 x 5
 
-
-
-
+for i in range(1,11):
+    print(i, "x 5 =", i * 5)
 
 # Oefening 6
 # Maak een variabel countdown aan met de waarde 10
@@ -53,9 +57,17 @@
 # Print na de loop "START!"
 
 countdown = 10
+countdown = 9
+countdown = 8
+countdown = 7 
+countdown = 6 
+countdown = 5 
+countdown = 4
+countdown = 3
+countdown = 2
+countdown = 1 
 
-
-
+print(START)
 
 
 # Oefening 7
@@ -69,8 +81,6 @@ countdown = 10
 
 monsterHealth = 100
 damage = 20
-
-
 
 
 
